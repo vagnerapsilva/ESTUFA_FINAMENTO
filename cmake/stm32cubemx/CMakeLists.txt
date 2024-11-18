@@ -18,6 +18,11 @@ target_include_directories(stm32cubemx INTERFACE
     ../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy
     ../../Drivers/CMSIS/Device/ST/STM32L4xx/Include
     ../../Drivers/CMSIS/Include
+    ../../Core/DHT/Inc
+    ../../Core/Menu/Inc
+    ../../Core/Ssd1306/Inc
+    ../../Core/Menu/Inc
+    ../../Core/Utilitis/Inc
 )
 
 target_sources(stm32cubemx INTERFACE
@@ -27,6 +32,13 @@ target_sources(stm32cubemx INTERFACE
     ../../Core/Src/i2c.c
     ../../Core/Src/rtc.c
     ../../Core/Src/tim.c
+    ../../Core/DHT/Src/DHT.c
+    ../../Core/Menu/Src/menu.c
+    ../../Core/Ssd1306/Src/fonts.c
+    ../../Core/Ssd1306/Src/ssd1306.c
+    ../../Core/Utilitis/Src/arm_pid_init_f32.c
+    ../../Core/Utilitis/Src/delays.c
+    ../../Core/Utilitis/Src/temperatura.c
     ../../Core/Src/stm32l4xx_it.c
     ../../Core/Src/stm32l4xx_hal_msp.c
     ../../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_crc.c
