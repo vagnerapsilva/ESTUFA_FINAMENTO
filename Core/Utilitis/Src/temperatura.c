@@ -46,9 +46,9 @@ void Temperatura_Init(void)
 //	PIDS.Kd = 30; //PID_PARAM_KD;		/* Derivative */
 
 	/* Set this for your needs */
-		PIDS.Kp = 100; //PID_PARAM_KP;		/* Proporcional */
-		PIDS.Ki = 0.025; //PID_PARAM_KI;		/* Integral */
-		PIDS.Kd = 20; //PID_PARAM_KD;		/* Derivative */
+		// PIDS.Kp = 100; //PID_PARAM_KP;		/* Proporcional */
+		// PIDS.Ki = 0.025; //PID_PARAM_KI;		/* Integral */
+		// PIDS.Kd = 20; //PID_PARAM_KD;		/* Derivative */
 
 	/* Set this for your needs */
 //	PIDS.Kp = 100.00; //PID_PARAM_KP;		/* Proporcional */
@@ -56,9 +56,9 @@ void Temperatura_Init(void)
 //	PIDS.Kd = 30.00; //PID_PARAM_KD;		/* Derivative */
 
 	/* Set this for your needs */
-//	  PIDS.Kp = 10.00;//PID_PARAM_KP;		/* Proporcional */
-//	  PIDS.Ki = 0.023;//PID_PARAM_KI;		/* Integral */
-//	  PIDS.Kd = 305.4;//PID_PARAM_KD;		/* Derivative */
+	  PIDS.Kp = 10.00;//PID_PARAM_KP;		/* Proporcional */
+	  PIDS.Ki = 0.023;//PID_PARAM_KI;		/* Integral */
+	  PIDS.Kd = 305.4;//PID_PARAM_KD;		/* Derivative */
 
 	/* Set this for your needs */
 //	PIDS.Kp = 97.10; //PID_PARAM_KP;		/* Proporcional */
