@@ -42,7 +42,7 @@ const static STRUCT_MAT Filament[18] =
 		    { " PS  ", 65, 360 }, //14
 		    { " PVA ", 48, 600 }, //15
 		    { "SAN  ", 62, 300 }, //16
-		    { "TESTE", 31, 5 } //17
+		    { "100", 100, 420 } //17
 	};
 extern uint8_t menu ( uint8_t *perfil );
 extern void set_material ( void );
